@@ -24,5 +24,5 @@ mode:
 | ---- | -------------------------------------- |
  | 0 | Single GPU load pinned memory| 
  | 1 | Multi GPU load **same** share memory| 
- | 2 | 多卡同时读 **different** pinned memory|
+ | 2 | Multi GPU load **different** pinned memory|
 | 3 | Pinned → GPU0 → NCCL broadcast to other GPUs |
